@@ -68,3 +68,6 @@ body{
 {
     clear: both;
 }
+.container {
+    background-color: rgba(189, 188, 135, 0.705);
+}
