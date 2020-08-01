@@ -75,67 +75,7 @@ body{
     background-color: cornsilk;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 3px;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .row {
-    display: flex;
-    padding-left: 20%;
-  }
-  .column1 {
-    float: left;
-    width: 22%;
-    padding: 2px;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .row1 {
-    display: flex;
-    padding-left: 13%;
-  }
-  .portfolio h2{
-    text-align: center;
-    /*padding: 70px 0;*/
-    line-height: 1.5;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 45%;
-  }
-  .image1{
-    position:relative;
-  
-  }
-  .overlay {
-    position:absolute;
-    top: 0;
-    bottom:0;
-    left:0;
-    right:0;
-    height:100%;
-    width:100%;
-    opacity:0;
-    transition: .5s ease;
-    background-color: white;
-    font-size:small; 
-  }
-  .image{
-    display:block;
-    width:100%;
-    height: auto;
-  }
-  .image1:hover .overlay {
-    opacity:0.5;
+.container{
+    align-items: flex-start;
+    bottom: 5%;
+}
