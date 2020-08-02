@@ -376,13 +376,18 @@
                        <label for="verb">Another Topping</label>
                        <input id="verb" class="form-control" type="text">
                     </div>
+                    <div class="form-group">
+                      <label for="noun">Deliver to (enter nairobi areas only, deliveries to other pllaces will late be ignored)</label>
+                      <input id="noun" class="form-control" type="text">
+                   </div>
                     <button type="submit" class="btn">Show me my order</button>
                  </form>
               </div>
               <div id="story">
                  <h1>My order</h1>
-                 <p>I just ordered <span class="person1"></span> , <span class="person2"></span> with a crust type of <span class="animal"></span>  and a topping of <span class="exclamation"></span> and  <span class="person1"></span>.
+                 <p>I just ordered <span class="person1"></span> , <span class="person2"></span> with a crust type of <span class="animal"></span>  and a topping of <span class="exclamation"></span> and  <span class="person1"></span>.And will be delivered to: <span class="noun"></span>
               </div>
+              <input type="button" onclick="display_alert()" value="Show me my balance">
            </div>
           </div>
     <script src="js/scripts.js"></script>  
