@@ -9,15 +9,16 @@ function myFunction() {
 
   $(document).ready(function() {
     $("#blanks form").submit(function(event) {
-        var pizza = $("input#pizzatype").val();
-        var topping = $("input#topping").val();
-        var crust = $("input#crusttype").val();
-        var quanity = $("input#quantity").val();
-        $("#pizza").text(pizzaInput);
-        $("#topping").text(toppingInput);
-        $("#crust").text(crustInput);
-        $("#quantity").text(quantityInput);
-
+        var person1Input = $("input#person1").val();
+        var person2Input = $("input#person2").val();
+        var animalInput = $("input#animal").val();
+        var exclamationInput = $("input#exclamation").val();
+        var verbInput = $("input#verb").val();
+        $(".person1").text(person1Input);
+        $(".person2").text(person2Input);
+        $(".animal").text(animalInput);
+        $(".exclamation").text(exclamationInput);
+        $(".verb").text(verbInput);
         $("#story").show();
 
         event.preventDefault();
