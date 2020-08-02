@@ -24,7 +24,7 @@ There are no known bugs
 In case of any questions email me at "caiseyann4@gmail.com" 
 * Also feel free to fork, clone this project and make any necessary changes.
 ### Link to live site
-caiseyann.github.io/ip4/
+https://caiseyann.github.io/ip4/
 ### License
 *MIT*
 Copyright (c) 2020 **Caiseyann Mwangi**
